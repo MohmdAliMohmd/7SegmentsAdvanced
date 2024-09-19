@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C595BD0E-B85E-4978-8E0B-A76941DCECCD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_7Segments</RootNamespace>
+    <AssemblyName>7Segments</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ctrlLCDScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlLCDScreen.Designer.cs">
+      <DependentUpon>ctrlLCDScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ctrlSevenSegmentsv2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlSevenSegmentsv2.Designer.cs">
+      <DependentUpon>ctrlSevenSegmentsv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Form1TestNew screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Form1TestNew screen.Designer.cs">
+      <DependentUpon>Form1TestNew screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrl15DigitScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl15DigitScreen.Designer.cs">
+      <DependentUpon>ctrl15DigitScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrLCD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrLCD.Designer.cs">
+      <DependentUpon>ctrLCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlSevenSegments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlSevenSegments.Designer.cs">
+      <DependentUpon>ctrlSevenSegments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTestSevenSegments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTestSevenSegments.Designer.cs">
+      <DependentUpon>FormTestSevenSegments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm15DigitScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm15DigitScreen.Designer.cs">
+      <DependentUpon>frm15DigitScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLCD.Designer.cs">
+      <DependentUpon>frmLCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTestLCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTestLCD.Designer.cs">
+      <DependentUpon>frmTestLCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\ctrlLCDScreen.resx">
+      <DependentUpon>ctrlLCDScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ctrlSevenSegmentsv2.resx">
+      <DependentUpon>ctrlSevenSegmentsv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Form1TestNew screen.resx">
+      <DependentUpon>Form1TestNew screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrl15DigitScreen.resx">
+      <DependentUpon>ctrl15DigitScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrLCD.resx">
+      <DependentUpon>ctrLCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlSevenSegments.resx">
+      <DependentUpon>ctrlSevenSegments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTestSevenSegments.resx">
+      <DependentUpon>FormTestSevenSegments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm15DigitScreen.resx">
+      <DependentUpon>frm15DigitScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLCD.resx">
+      <DependentUpon>frmLCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTestLCD.resx">
+      <DependentUpon>frmTestLCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
