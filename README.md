@@ -1,6 +1,6 @@
 # 15-Digit Calculator with 7-Segment Display
 
-![Calculator Screenshot](![image](https://github.com/user-attachments/assets/e1f80f63-7a9e-427f-ab1a-b62b146c77cc)
+![Calculator Screenshot](![image]([https://github.com/user-attachments/assets/e1f80f63-7a9e-427f-ab1a-b62b146c77cc](https://github.com/MohmdAliMohmd/7SegmentsAdvanced/blob/master/Calculator%20Screenshot.png))
 ) *(Add your own screenshot here)*
 
 ## Overview
