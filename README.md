@@ -1,7 +1,6 @@
 # 15-Digit Calculator with 7-Segment Display
 
-## Application Preview
-![Calculator Interface]((https://github.com/MohmdAliMohmd/7SegmentsAdvanced/blob/master/Calculator%20Screenshot.png))
+![Calculator Screenshot](images2/CalculatorScreenshot.png) 
 
 ## Overview
 This Windows Forms application implements a 15-digit calculator with a realistic 7-segment display simulation. The calculator supports basic arithmetic operations (addition, subtraction, multiplication, division), decimal values, and includes advanced features like positive/negative toggling and multi-operation chaining.
