@@ -48,7 +48,7 @@ This Windows Forms application implements a 15-digit calculator with a realistic
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/15-digit-calculator.git
+   git clone https://github.com/MohmdAliMohmd/15-digit-calculator.git
    ```
 2. Open the solution in Visual Studio
 3. Build the solution (Ctrl+Shift+B)
