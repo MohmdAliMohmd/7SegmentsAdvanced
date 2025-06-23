@@ -1,3 +1,5 @@
+> **Language Notice**: 
+> [View in Arabic (العربية)](README_AR.md) | 
 # 15-Digit Calculator with 7-Segment Display
 
 ![Calculator Screenshot](images2/CalculatorScreenshot.png) 
