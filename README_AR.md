@@ -48,7 +48,7 @@
 ### التثبيت
 1. استنسخ المستودع:
    ```bash
-   git clone https://github.com/your-username/15-digit-calculator.git
+   git clone https://github.com/MohmdAliMohmd/15-digit-calculator.git
    ```
 2. افتح الحل في Visual Studio
 3. بناء الحل (Ctrl+Shift+B)
